@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta name ="viewport" context="width=device-width,inital-scale=1.0">
+		<title>Layout</title>
+	</head>
+	<style>
+		body{
+				text-align:center;
+			}
+		header {
+				background-color:red;
+			}
+		.rig{
+				background-color:blue;
+				flex-basis:200px;
+			}
+		.cen{
+				background-color:green;
+				flex-grow:1; 	
+				flex-basis:400px;
+			}
+		aside{
+				background-color:yellow;
+				flex-basis:200px;
+			}
+		.flexcontainer{
+						display:flex;
+					}
+	</style>
+	<body>
+		<header><h1>heading content</h1>
+		</header>
+		<main class="flexcontainer">
+			<section class="rig">
+				<h2>left side</h2>
+			</section>
+			<section class="cen">
+				<h2>center</h2>
+			</section>
+			<aside>
+				<h2>right side</h2>
+			</aside>
+		</main>
+		<footer>
+			<h2>Footer</h2>
+		</footer>
+	</body>
+</html>
