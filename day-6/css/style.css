@@ -1,0 +1,99 @@
+/*header starts here*/
+
+.topbarflex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center
+}
+.container{
+	background-color:white;
+	height:60px;
+	width:100%;
+	box-shadow:0px 10px rgb(0, 0, 0, 10%), 0 0 0 0 rgb(0, 0, 0, 19%);
+}
+.menu a{
+	color:black;
+	text-decoration:none;
+	padding:10px;
+	font-size:20px;
+	font-weight:700;
+	font-family: 'Source Serif Pro', serif;
+}
+a:hover{
+	background-color:#97f4f7;
+}
+a:active{
+	background-color:green;
+}
+.mark marquee{
+	background-color:green;
+	padding:15px;
+	font-size:20px;
+	color:white;
+}
+.mark{
+	width:100%;
+	margin-top:6px;
+}
+.banner img{
+	width: -webkit-fill-available;
+}
+
+
+/*header end here*/
+
+.qcontainer{
+	position:relative;
+}
+.qlinkflex{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.qlink h2{
+	font-size:23px;
+	font-weight:700;
+	text-align:center; 
+	border-bottom:2px solid green;
+}
+.qimgcontainer{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	padding:0.6%;
+	box-shadow:0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.qfirst img{
+	flex-basis:600px;
+	position:absolute;
+	left:1%;
+	height:auto;
+	width:28%;
+}
+.qfcont{
+	flex-basis:520px;
+	margin: 0 1% 0 0;
+	padding: 0 0 20px 0;
+}
+.qimgcontainer2{
+	display:flex;
+	margin: 30px 0 0 0;
+	box-shadow:0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.qfcont2{
+	flex-basis: 800px;
+	padding:2%;
+}
+.qsecond img{
+	position: absolute;
+    flex-basis: 200px;
+    height: 36%;
+    width: 25%;
+    right: 1%
+}
+.foot{
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url(../img/map.jpg);
+	height:50vh;
+}
