@@ -1,0 +1,90 @@
+/* header start */
+.container{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	z-index:1;
+}
+.flexcontainer{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.hed h2{
+	color:white;
+}
+.menu ul {
+	display:flex;
+	list-style:none;
+	padding:12px 12px;
+}
+.menu li{
+	padding:10px 10px;
+}
+.menu a{
+	text-decoration:none;
+	color:white;
+	padding:12px;
+}
+.menu a:hover{
+	background-color:red;
+	border-radius:4px;	
+}
+/*header end here */
+/* dropdown start here*/
+.dropdown .dropdown-content a{
+	color:black;
+}
+.dropdown ul{
+	display:block;
+	position:absolute;
+	opacity:1;
+	align-items:center;
+	visibility:hidden;
+	text-align:center;
+	background:white;
+	z-index:99;
+	box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+	border-radius:5px;
+	
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+	visibility:visible;
+	background-color:white;
+}
+/*dropdown end here*/
+/* banner content start here*/
+.banner{
+	position:relative;
+	background:url(../img/ban.jpg) top center;
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	background-attachment:fixed;
+	padding:0;
+}
+.banner::after{
+	content:"";
+	position:absolute;
+	background-color:rgba(13, 20, 26, 0.7);
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.banner-content{
+	color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15% 0 0 0;
+    font-size: 25px;
+    z-index: 1;
+}
+
+
+/* banner content end here*/
